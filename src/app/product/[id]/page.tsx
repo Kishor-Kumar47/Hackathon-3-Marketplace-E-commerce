@@ -1,28 +1,28 @@
-'use client'
-import SingleDetails from '@/components/SingleDetail'
-import { client } from '@/sanity/lib/client'
-import { groq } from 'next-sanity'
+// 'use client'
+// import SingleDetails from '@/components/SingleDetail'
+// import { client } from '@/sanity/lib/client'
+// import { groq } from 'next-sanity'
 
-import { useParams } from 'next/navigation'
+// import { useParams } from 'next/navigation'
 
-import React from 'react'
+// import React from 'react'
 
-const Page = async () => {
+// const Page = async () => {
 
-    const {productId}:any = useParams();
-    const products = await client.fetch(groq `*[_type == "product" ]{
-        id,name,price,description,imagepath,category,discountPercentage}`);
-    const product = products.find((product:any)=>product.id.current == productId);
-    console.log(product);
+//     const {productId}:any = useParams();
+//     const products = await client.fetch(groq `*[_type == "product" ]{
+//         id,name,price,description,imagepath,category,discountPercentage}`);
+//     const product = products.find((product:any)=>product.id.current == productId);
+//     console.log(product);
 
-  return (
-    <div>
-        <SingleDetails product={productId}/>
-    </div>
-  )
-}
+//   return (
+//     <div>
+//         <SingleDetails product={productId}/>
+//     </div>
+//   )
+// }
 
-export default Page
+// export default Page
 
 
 
