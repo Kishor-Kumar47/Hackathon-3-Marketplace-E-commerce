@@ -29,7 +29,7 @@ const page = () => {
             <p className='w-[90%]  md:w-[644px] h-[48px] top-[575px] left-[398px] font-["Poppins"] font-normal text-[16px] leading-[24px] text-[#9F9F9F]'>
               For More Information About Our Product & Services. Please Feel
               Free To Drop Us An Email. Our Staff Always Be There To Help You
-              Out. Do Not Hesitate!
+              Out. Do Not Hesitate
             </p>
           </div>
         </div>

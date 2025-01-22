@@ -76,7 +76,7 @@ const Proddetail = () => {
         Out Door Sofa
       </h1>
       <p className="mb-8 leading-relaxed">
-        Neutra shabby chic ramps, viral fixie. Cray pug you probably haven't
+        Neutra shabby chic ramps viral fixie. Cray pug you probably have not
         heard of them hexagon kickstarter craft beer migas truffaut. Glass
         of wine poster art. By create next
       </p>

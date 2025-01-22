@@ -180,10 +180,10 @@ const SingleDetails = ({product}:any) => {
             </div>
             <div className='flex gap-10 md:w-[1026px] h-[174px] top-[1152px] left-[207px] text-[#9F9F9F] flex-col md:gap-4'>
                 <p className='text-[10px] w-[90%] md:w-[1026px] h-[48px] top-[1152px] left-[207px] font-["Poppins"] font-normal  md:text-[16px] leading-[24px] text-[#9F9F9F]' >
-                Embodying the raw, wayward spirit of rock n roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.
+                Embodying the raw wayward spirit of rock n roll the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall unplugs the chords and takes the show on the road.
                 </p>
                 <p className='text-[10px] w-[80%] md:w-[1026px] h-[96px] top-[1230px] left-[207px] font-["Poppins"] font-normal  md:text-[16px] leading-[24px] text-[#9F9F9F]' >
-                Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.
+                Weighing in under 7 pounds the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class the Kilburn is a compact stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.
                 </p>
 
             </div>
@@ -252,7 +252,7 @@ const SingleDetails = ({product}:any) => {
             {/* text */}
             <div className='w-[194px] h-[71px] top-[2175px] left-[100px] text-black'>
                 <p className='w-[192px] h-[24px] top-[2170px] left-[100px] font-["Poppins"] font-normal text-[16px] leading-[24px] text-black'>Trenton modular sofa_3</p>
-                <h2 className='w-[158px] h-[36px] top-[2210px] left-[100px] font-["Poppins"] font-medium text-[24px] leading-[36px] text-black'>Rs. 25,000.00</h2>
+                <h2 className='w-[158px] h-[36px] top-[2210px] left-[100px] font-["Poppins"] font-medium text-[24px] leading-[36px] text-black'>Rs. 25000.00</h2>
 
             </div>
             
@@ -278,7 +278,7 @@ const SingleDetails = ({product}:any) => {
             {/* text */}
             <div className='w-[194px] h-[71px] top-[2175px] left-[100px] text-black'>
                 <p className='w-[192px] h-[24px] top-[2170px] left-[100px] font-["Poppins"] font-normal text-[16px] leading-[24px] text-black'>Granite dining table with dining chair</p>
-                <h2 className='w-[158px] h-[36px] top-[2210px] left-[100px] font-["Poppins"] font-medium text-[24px] leading-[36px] text-black mt-4 '>Rs. 25,000.00</h2>
+                <h2 className='w-[158px] h-[36px] top-[2210px] left-[100px] font-["Poppins"] font-medium text-[24px] leading-[36px] text-black mt-4 '>Rs. 25000.00</h2>
 
             </div>
             
@@ -304,7 +304,7 @@ const SingleDetails = ({product}:any) => {
             {/* text */}
             <div className='w-[194px] h-[71px] top-[2175px] left-[100px] text-black'>
                 <p className='w-[192px] h-[24px] top-[2170px] left-[100px] font-["Poppins"] font-normal text-[16px] leading-[24px] text-black'>Outdoor bar table and stool</p>
-                <h2 className='w-[158px] h-[36px] top-[2210px] left-[100px] font-["Poppins"] font-medium text-[24px] leading-[36px] text-black'>Rs. 25,000.00</h2>
+                <h2 className='w-[158px] h-[36px] top-[2210px] left-[100px] font-["Poppins"] font-medium text-[24px] leading-[36px] text-black'>Rs. 25000.00</h2>
 
             </div>
             
@@ -330,7 +330,7 @@ const SingleDetails = ({product}:any) => {
             {/* text */}
             <div className='w-[194px] h-[71px] top-[2175px] left-[100px] text-black'>
                 <p className='w-[192px] h-[24px] top-[2170px] left-[100px] font-["Poppins"] font-normal text-[16px] leading-[24px] text-black'>Plain console with teak mirror</p>
-                <h2 className='w-[158px] h-[36px] top-[2210px] left-[100px] font-["Poppins"] font-medium text-[24px] leading-[36px] mt-4 text-black'>Rs. 25,000.00</h2>
+                <h2 className='w-[158px] h-[36px] top-[2210px] left-[100px] font-["Poppins"] font-medium text-[24px] leading-[36px] mt-4 text-black'>Rs. 25000.00</h2>
 
             </div>
             

@@ -46,7 +46,7 @@ const page = () => {
               Log In
             </button>
             <a href="#" className="text-sm text-gray-500 hover:underline">
-              Lost Your Password?
+              Lost Your Password
             </a>
           </div>
         </div>
@@ -71,7 +71,7 @@ const page = () => {
 
             <p className="text-sm text-gray-600">
               Your personal data will be used to support your experience
-              throughout this website, to manage access to your account, and for
+              throughout this website to manage access to your account and for
               other purposes described in our
               <a href="#" className="text-black font-semibold hover:underline">
                 {' '}privacy policy.

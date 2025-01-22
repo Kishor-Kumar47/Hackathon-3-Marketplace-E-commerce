@@ -108,7 +108,7 @@ const page = () => {
 
                         </span>
                         <h3 className='md:w-[424px] h-[80px] top-[398px] left-[734px] font-["Poppins"] font-normal  text-[13px] leading-[19.5px] text-black'>
-                        Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.
+                        Setting the bar as one of the loudest speakers in its class the Kilburn is a compact stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.
                         </h3>
 
 

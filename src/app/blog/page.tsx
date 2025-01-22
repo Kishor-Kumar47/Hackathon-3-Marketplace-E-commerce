@@ -48,11 +48,11 @@ const page = () => {
                 Going all in with millennial design
               </h2>
               <p className="md:w-[90%] h-[20%] text-[16px] text-gray-400">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Laborum ipsum dolores sequi aliquid Incidunt beatae eos hic
-                tempora. Repellendus obcaecati. Lorem, ipsum dolor sit amet
+                tempora. Repellendus obcaecati. Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Laborum ipsum dolores sequi
-                aliquid? Incidunt beatae eos hic tempora. Repellendus
+                aliquid Incidunt beatae eos hic tempora. Repellendus
                 obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Laborum ipsum .
               </p>

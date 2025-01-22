@@ -86,10 +86,10 @@ const Footer = () => {
         <div className="space-y-4">
           <h3 className="text-lg text-white font-medium">Contact Us</h3>
           <p className="text-sm text-gray-400">
-            123 Furniture St, Design City, HomeState 45678
+            123 Furniture St Design City HomeState 45678
           </p>
           <p className="text-sm text-gray-400">Email: support@comfurtwala.com</p>
-          <p className="text-sm text-gray-400">Phone: +1 (234) 567-890</p>
+          <p className="text-sm text-gray-400">Phone: 0444443</p>
           <div className="flex space-x-4">
             <Link href="https://facebook.com" className="hover:text-orange-500">
               <FaFacebookF />
@@ -110,7 +110,7 @@ const Footer = () => {
       {/* Footer Bottom Section */}
       <div className="bg-gray-800 py-4">
         <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400">
-          <p>© 2025 Comfurt Wala. All Rights Reserved.</p>
+          <p> 2025 Comfurt Wala. All Rights Reserved.</p>
           <nav className="flex space-x-4 mt-2 sm:mt-0">
             <Link href="/privacy-policy" className="hover:text-orange-500">
               Privacy Policy

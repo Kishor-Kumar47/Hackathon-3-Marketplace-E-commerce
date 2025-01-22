@@ -7,7 +7,7 @@ import { useParams } from 'next/navigation'
 
 import React from 'react'
 
-const page = async () => {
+const Page = async () => {
 
     const {productId}:any = useParams();
     const products = await client.fetch(groq `*[_type == "product" ]{
@@ -22,7 +22,7 @@ const page = async () => {
   )
 }
 
-export default page
+export default Page
 
 
 

@@ -40,7 +40,7 @@ const CartSlider = () => {
             />
             <div>
               <h3 className="text-sm font-medium">Asgaard Sofa</h3>
-              <p className="text-sm text-gray-500">1 x Rs. 250,000.00</p>
+              <p className="text-sm text-gray-500">1 x Rs. 250000.00</p>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ const CartSlider = () => {
         <div className="p-4 border-t">
           <div className="flex justify-between items-center mb-4">
             <span className="text-lg font-bold">Subtotal:</span>
-            <span className="text-lg font-bold">Rs. 250,000.00</span>
+            <span className="text-lg font-bold">Rs. 250000.00</span>
           </div>
           <button className="w-full bg-black text-white py-2 rounded">
             Checkout

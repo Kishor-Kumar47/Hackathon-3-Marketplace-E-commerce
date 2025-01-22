@@ -127,15 +127,15 @@ const CheckoutPage = () => {
               <h2 className="text-2xl font-semibold text-black">Order Summary</h2>
               <div className="flex justify-between mt-4">
                 <span className="text-gray-700">Asgard Sofa x1</span>
-                <span className="text-black">RS 250,000.00</span>
+                <span className="text-black">RS 25000.00</span>
               </div>
               <div className="flex justify-between mt-2">
                 <span className="text-gray-700">Subtotal</span>
-                <span className="text-black">RS 250,000.00</span>
+                <span className="text-black">RS 250000.00</span>
               </div>
               <div className="flex justify-between mt-2 font-bold">
                 <span className="text-black">Total</span>
-                <span className="text-yellow-600">RS 250,000.00</span>
+                <span className="text-yellow-600">RS 250000.00</span>
               </div>
             </div>
 

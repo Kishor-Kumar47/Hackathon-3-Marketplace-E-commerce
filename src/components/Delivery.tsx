@@ -7,21 +7,21 @@ const Delivery = () => {
         <div className='w-[90%] md:w-[376px] h-[108px] top-[2559px] left-[100px]'>
             <h2 className='w-[205px] h-[48px] top-[2559px] left-[100px] font-["Poppins"] font-medium text-[32px] leading-[48px] text-black'>Free Delivery</h2>
             <p className='w-[80%] md:w-[376px] h-[60px] top-[2607px] left-[100px] font-["Poppins"] font-normal text-[20px] leading-[30px] text-[#9F9F9F]'>
-            For all oders over $50, consectetur adipim scing elit.
+            For all oders over $50 consectetur adipim scing elit.
             </p>
         </div>
         {/* section----2 */}
         <div className='w-[90%] md:w-[376px] h-[108px] top-[2559px] left-[524px]'>
             <h2 className='w-[244px] h-[48px] top-[2559px] left-[524px] font-["Poppins"] font-medium text-[32px] leading-[48px] text-black'>90 Days Return</h2>
             <p className='w-[80%] md:w-[376px] h-[60px] top-[2607px] left-[100px] font-["Poppins"] font-normal text-[20px] leading-[30px] text-[#9F9F9F]'>
-            If goods have problems, consectetur adipim scing elit.
+            If goods have problems consectetur adipim scing elit.
             </p>
         </div>
         {/* section----3 */}
         <div className='w-[90%] md:w-[376px] h-[108px] top-[2559px] left-[944px]'>
             <h2 className='w-[265px] h-[48px] top-[2559px] left-[944px] font-["Poppins"] font-medium text-[32px] leading-[48px] text-black'>Secure Payment</h2>
             <p className='w-[80%] md:w-[376px] h-[60px] top-[2607px] left-[100px] font-["Poppins"] font-normal text-[20px] leading-[30px] text-[#9F9F9F]'>
-            100% secure payment, consectetur adipim scing elit.
+            100% secure payment consectetur adipim scing elit.
             </p>
         </div>
 
