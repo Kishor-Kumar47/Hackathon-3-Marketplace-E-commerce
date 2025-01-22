@@ -99,7 +99,7 @@ export default async function ShopPage() {
           <ul className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-y-20 gap-x-14 mt-10 mb-5 ">
             {products.map((product) => (
               <li key={product._id}>
-                <Link href={`/product/${product._id}`}>
+                
                   <Image
                     className="relative h-60 w-22 object-cover rounded-t-xl"
                     src={product.imagePath}
@@ -107,7 +107,7 @@ export default async function ShopPage() {
                     width={300}
                     height={200}
                   />
-                </Link>
+                
 
                 <div className="px-4 py-3 w-72">
                   <h2 className="text-orange-600 font-bold text-2xl">
