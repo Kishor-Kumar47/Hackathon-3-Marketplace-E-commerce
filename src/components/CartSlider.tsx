@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useState } from "react";
 
 const CartSlider = () => {
@@ -33,8 +34,10 @@ const CartSlider = () => {
         {/* Cart Items */}
         <div className="p-4 space-y-4">
           <div className="flex items-center space-x-4">
-            <img
-              src="/sofa.jpg" // Replace with your image path
+            <Image
+            width={64}
+height={64}
+            src="/sofa.jpg" // Replace with your image path
               alt="Asgaard Sofa"
               className="w-16 h-16 object-cover rounded"
             />

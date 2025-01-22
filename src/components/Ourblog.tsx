@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 
@@ -53,7 +54,9 @@ const Ourblog = () => {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       {blogPosts.map((post) => (
         <div key={post.id} className="bg-white shadow-md rounded-lg overflow-hidden">
-          <img
+          <Image
+          width={300}
+          height={200}
             className="w-full h-56 object-cover"
             src={post.image}
             alt={post.title}
