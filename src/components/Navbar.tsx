@@ -8,6 +8,7 @@ import { CiSearch, CiHeart } from "react-icons/ci";
 import { TbMenu4 } from "react-icons/tb";
 import { GiCrossedSabres } from "react-icons/gi";
 import ShoppingCart from "./CartToggle";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 
 
 const Navbarr = (props:any) => {
@@ -20,7 +21,9 @@ const Navbarr = (props:any) => {
   return (
     <main>
       <header className={`text-gray-600 ${props.bgColor} body-font `}>
+        
         <div className="container mx-auto flex flex-wrap  p-5 flex-col md:flex-row items-center justify-between  ">
+          
           <Link
             href={"/"}
             className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
@@ -41,7 +44,7 @@ const Navbarr = (props:any) => {
             </Link>
           </nav>
 
-          <div className="hidden lg:block">
+          <div className="hidden md:block">
             <div className=" w-[70%] sm:w-[247px] h-[28px] top-[36px] left-[1093px] flex gap-x-10">
               <span className=" hidden md:block w-[28px]  h-[28px] top-[36px] left-[1093px] text-[35px]">
                 {" "}
@@ -52,6 +55,8 @@ const Navbarr = (props:any) => {
                 </Link>{" "}
               </span>
               <span className=" hidden md:block w-[28px]  h-[28px] top-[36px] left-[1093px] text-[35px] ">
+                {/* sign in user */}
+                
                 <Link href={'/myaccount'}>
               <MdManageAccounts />{" "}
                 </Link>
@@ -78,10 +83,12 @@ const Navbarr = (props:any) => {
           </div>
           {/* menu button  */}
           <div className="md:hidden flex items-center  w-8 -mr-[260px] -mt-[50px] md:-ml-0 md:-mr-0">
+          
             <button
               className="inline-flex items-center justify-center text-2xl p-2 rounded-md text-black  hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               onClick={toggleNavbar}
             >
+              
               {isClick ? <GiCrossedSabres /> : <TbMenu4 />}
             </button>
           </div>
@@ -107,10 +114,7 @@ const Navbarr = (props:any) => {
                   {" "}
                   <CiHeart />{" "}
                 </Link>{" "}
-                <Link href={"/cart"}>
-                  {" "}
-                  <MdOutlineShoppingCart />{" "}
-                </Link>{" "}
+                
               </div>
             </div>
           </div>

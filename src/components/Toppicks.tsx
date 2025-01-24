@@ -59,7 +59,7 @@ const Toppicks = () => {
           {products.map((product) => (
             <div
               key={product.id}
-              className="p-4 md:w-1/3 flex flex-col text-center items-center  rounded-lg shadow-md hover:shadow-lg"
+              className="p-4 md:w-1/3 flex flex-col text-center items-center bg-slate-200  rounded-lg shadow-pink-200 shadow-md hover:shadow-lg"
             >
               <Image
                 className="rounded-lg"
@@ -74,7 +74,7 @@ const Toppicks = () => {
                 </h2>
                 
                 <p className="text-gray-800 font-semibold">RS: {product.price}</p>
-                <Link href={''} className="mt-3 text-yellow-500 inline-flex items-center cursor-pointer">
+                <Link href={'/shop'} className="mt-3 text-yellow-500 inline-flex items-center cursor-pointer hover:text-orange-500">
                   Learn More
                   <svg
                     fill="none"
@@ -92,9 +92,11 @@ const Toppicks = () => {
             </div>
           ))}
         </div>
-        <button className="flex mx-auto mt-16 text-black  border-b border-black border-b-4 py-2 px-8  text-lg">
+        <Link href={'/shop'}>
+        <button className="flex mx-auto mt-16 text-black  border-b border-black border-b-4 py-2 px-8  text-lg hover:text-orange-500 focus:outline-none">
           View More
         </button>
+        </Link>
       </div>
     </section>
   );

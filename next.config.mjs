@@ -1,12 +1,28 @@
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//     images: {
+//         domains: [
+//           'plus.unsplash.com', 
+//           'images.unsplash.com', 
+//           'next-ecommerce-template-4.vercel.app', // Add this domain
+//         ],
+//       },
+// };
+
+// export default nextConfig;
+
+//////////////////////////////////////////////
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: [
+  images: {
+      domains: [
           'plus.unsplash.com', 
           'images.unsplash.com', 
-          'next-ecommerce-template-4.vercel.app', // Add this domain
-        ],
-      },
+          'next-ecommerce-template-4.vercel.app', 
+          'cdn.sanity.io', // Add this domain
+      ],
+  },
 };
 
 export default nextConfig;

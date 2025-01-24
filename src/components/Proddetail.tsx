@@ -80,7 +80,7 @@ const Proddetail = () => {
         heard of them hexagon kickstarter craft beer migas truffaut. Glass
         of wine poster art. By create next
       </p>
-      
+      <p className='text-xl mb-2 text-gray-600 font-bold '>RS: 24000</p>
       
       <div className="flex lg:flex-row md:flex-col">
         <button className="bg-orange-500 inline-flex text-white font-bold py-3 px-5 rounded-lg items-center hover:bg-orange-600 focus:outline-none">
