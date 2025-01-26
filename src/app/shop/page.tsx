@@ -1,4 +1,4 @@
-'use client'
+
 
 import Navbarr from "@/components/Navbar";
 import Shophead from "@/components/Shophead";

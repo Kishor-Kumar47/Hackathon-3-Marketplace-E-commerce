@@ -21,6 +21,7 @@ const nextConfig = {
           'images.unsplash.com', 
           'next-ecommerce-template-4.vercel.app', 
           'cdn.sanity.io', // Add this domain
+          'img.clerk.com',
       ],
   },
 };
