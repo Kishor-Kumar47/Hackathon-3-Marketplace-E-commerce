@@ -85,7 +85,7 @@ const page = async () => {
           </section>
 
           {/* Order Summary */}
-          <section className="bg-white rounded-lg shadow p-6 lg:col-span-3">
+          <section className=" hidden md:block bg-white rounded-lg shadow p-6 lg:col-span-3">
             <h2 className="text-lg font-bold text-gray-800 mb-4">Order Summary</h2>
             <table className="w-full border-collapse">
               <thead>

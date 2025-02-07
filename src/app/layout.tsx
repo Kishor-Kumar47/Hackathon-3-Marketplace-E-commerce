@@ -38,13 +38,14 @@
 
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+
 import "./globals.css";
 import Footer from "@/components/Footer";
 import { ClerkProvider } from "@clerk/nextjs";
+import StoreProvider from "../../StoreProvider/StoreProvider";
 
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Furniture Store",
@@ -57,16 +58,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <StoreProvider>
+
       <ClerkProvider>
 
     <html lang="en">
-      <body className={inter.className}>
+      <body >
 
         {children}
         <Footer/>
         </body>
     </html>
       </ClerkProvider>
+    </StoreProvider>
   
   );
 }

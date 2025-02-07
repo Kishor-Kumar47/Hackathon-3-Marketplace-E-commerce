@@ -268,7 +268,7 @@ const Navbarr = (props: any) => {
             </SignedOut> */}
 
 {isSignedIn ? (
-                <div className="  flex flex-col  justify-right">
+                <div className="  flex flex-col justify-right">
                   <UserButton />
                 </div>
               ) : (
@@ -323,7 +323,7 @@ const Navbarr = (props: any) => {
                 <Link href="/checkouts" className="text-2xl text-black">
                   <CiHeart className="text-4xl mt-3" />
                 </Link>
-                <ShoppingCart />
+                <ShoppingCart  />
               </div>
               
 

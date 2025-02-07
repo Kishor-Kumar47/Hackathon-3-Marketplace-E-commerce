@@ -54,8 +54,15 @@
 
 import Image from 'next/image'
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux';
+import { RootState } from '../../store/store';
+import { addToCart } from '../../store/cartSlice';
 
 const Proddetail = () => {
+
+
+  
+
   return (
     <div>
         
@@ -83,10 +90,12 @@ const Proddetail = () => {
       <p className='text-xl mb-2 text-gray-600 font-bold '>RS: 24000</p>
       
       <div className="flex lg:flex-row md:flex-col">
-        <button className="bg-orange-500 inline-flex text-white font-bold py-3 px-5 rounded-lg items-center hover:bg-orange-600 focus:outline-none">
+        {/* <button className="bg-orange-500 inline-flex text-white font-bold py-3 px-5 rounded-lg items-center hover:bg-orange-600 focus:outline-none">
           Order Now
-        </button>
-        <button className="bg-gray-600 text-white inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-700 focus:outline-none">
+        </button> */}
+        <button
+       
+        className="bg-gray-600 text-white inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-700 focus:outline-none">
           Add to Cart
         </button>
       </div>
@@ -99,3 +108,7 @@ const Proddetail = () => {
 }
 
 export default Proddetail
+
+
+
+// sanity 
