@@ -4,14 +4,13 @@ import { RootState } from '../../../store/store';
 import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
 import Image from 'next/image';
-import { it } from 'node:test';
-import ShopClient from '@/components/ShopClient';
+
 import { useUser } from '@clerk/nextjs';
 import { addToCart, removeFromCart } from '../../../store/cartSlice';
 import { MdDelete } from "react-icons/md";
 import Navbarr from '@/components/Navbar';
 
-const page = () => {
+const Page = () => {
 
   const dispatch = useDispatch();
 
@@ -148,4 +147,4 @@ const removeItemsHandler = (id: string) => {
   )
 }
 
-export default page
+export default Page
